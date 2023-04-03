@@ -4,34 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tondon School</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color: #552d87;">
+
+    <!-- first nav -->
     <nav class="title-nav">
         <img src="logo.png" alt="logo" style="float:left;height: 90%;width: 30%;">
         <h1 style="float:right;color:white;padding-top:10px;padding-right:10px;">DEPARTMENT OF CIVIL &  <br> URBAN ENGINEERING</h1>
     </nav>
+    <!-- second nav -->
     <nav class="nav">
-        <h2 style="float:left;padding-top:7px;padding-left:80px;" id="main-faculty">Faculty</h2>
-        <h2 style="float:left;padding-top:7px;padding-left:80px;" id="area-ee">Environmental Engineering</h2>
-        <h2 style="float:right;padding-top:7px;padding-right:60px;">More Information</h2>
+        <h2 class="nav-left" id="main-faculty">Faculty</h2>
+        <h2 class="nav-left" id="area-ee">Environmental Engineering</h2>
+        <h2 class="nav-right" >More Information</h2>
     </nav>
+    <!-- main container -->
     <div class="flex-container">
 
-        <div class="display-box" style="width:80%;height:100%;margin:auto;">
-            <div id="mainphoto">
-                <img src="teacherlist.png" alt="" style="height:100%;width:100%;">
-            </div>
-            <div id="areaphoto">
-                <img src="area.png" alt="" style="height:100%;width:100%;">
-            </div>
+        <!-- display -->
+        <div class="display-box">
+            
+                <img src="teacherlist.png" alt="" id="mainphoto">
+           
+            
+                <img src="area.png" alt="" id="areaphoto" >
+            
 
         </div>
 
-        <div class="list" style="width: 20%;height:100%;border-left: 13px solid #b578ff;">
+        <!-- SIDE NAVIGATION -->
+        <div class="list" style="width: 20%;height:auto;border-left: 13px solid #b578ff;">
             
             <table id="table-container">
                 <tr id="area">
